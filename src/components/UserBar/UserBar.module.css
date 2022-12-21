@@ -1,0 +1,21 @@
+.userBar{
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userBar__title{
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    color: #75a3b3;
+}
+
+.userBar__body{
+    padding: 0 5px;
+    list-style: none;
+}
+
+.userBar__body li{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+.userItem{
+    flex: 1 1 200px;
+    border: 1px solid #75a3b3;
+    border-radius: 5px;
+}
+
+.userItem__title{
+    text-align: center;
+    line-height: 40px;
+    color: #75a3b3;
+}
