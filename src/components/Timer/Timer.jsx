@@ -33,7 +33,7 @@ const Timer = ({limit, step, addStep}) => {
         return () => {
             clearInterval(interval)
         }
-    }, [timeLeft, step])
+    }, [timeLeft, step, limit, addStep])
 
     return (
         <div className={classes.timer}>
